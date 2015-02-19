@@ -1,0 +1,45 @@
+---
+title       : SILLYAPPY
+subtitle    : A look at Distributions
+author      : Distro Butions
+job         : Distributions King
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+--- .black .quote
+
+<q> <span class = 'green'>SillyAppy</span> at the click of a button</q>
+<br>
+<q> <span class = 'green'>SillyAppy</span> brings you a view of different distriibutions.</q>
+<br>
+
+--- .black .quote
+
+## <span class = 'green'>Here is a look at the dataset<span>
+
+    ```{r echo = F}
+    file<-"../../project/distributions.csv"
+    dataset<- read.csv(file,as.is=T,nrows=5)  
+    dataset
+    ```
+
+
+--- .black .quote
+
+## <span class = 'green'>SillyAppy At Work<span>
+
+<img src="./assets/img/SillyAppy.PNG">
+
+
+--- .black .quote
+
+## <span class = 'green'>SillyAppy Always Looking For More TO DOs::<span>
+
+* TO DO:: display table of dataframe
+* TO DO:: would like to control the format here e.g. h3
+* TO DO:: Would like to be able to import a file building on [this](https://github.com/rstudio/shiny-examples/tree/master/066-upload-file) then this would build the dropdown menus, and other options. that way it is more dynamic.
+* TO DO:: Handle many different file formats/structures.
+* TO DO:: More opions on the graphs to display.
