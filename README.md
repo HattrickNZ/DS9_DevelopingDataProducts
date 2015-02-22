@@ -53,5 +53,6 @@ Date normalDist poissonDist bernoulliDist binomialDist multinomDist.1 multinomDi
 ```
 
 #Useful Links
-working shiny app
-Slidify presentation
+* working shiny app - https://hattricknz.shinyapps.io/project/
+* Slidify presentation - http://hattricknz.github.io/DS9_DevelopingDataProducts_Slidify/#1
+
