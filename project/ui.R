@@ -36,13 +36,13 @@ shinyUI(
       selectInput('x','Select a column from the data set:',names(dataset)[-1],names(dataset)[2]),
       br(),
       br(),
-      p("The dataset here can be download from ",a("here",href="http://www.rstudio.com/shiny")),
+      p("The dataset here can be download from ",a("here",href="https://github.com/HattrickNZ/DS9_DevelopingDataProducts/blob/gh-pages/project/distributions.csv")),
       #TO DO:: p(colNames) # would like to display detais of data set here
       br(),
       br(),
-      p("For more details on this see the slidify presentation here ",a("here",href="http://www.rstudio.com/shiny")),
+      p("For more details on this see the slidify presentation here ",a("here",href="http://hattricknz.github.io/DS9_DevelopingDataProducts_Slidify")),
       br(),
-      p("All code can be seen here ",a("here",href="http://www.rstudio.com/shiny"))
+      p("All code can be seen here ",a("here",href="https://github.com/HattrickNZ/DS9_DevelopingDataProducts"))
       
     ),
   
